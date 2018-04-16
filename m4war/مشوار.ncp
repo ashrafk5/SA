@@ -1,0 +1,228 @@
+<Project>
+  <Name>Untitled</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Untitled</Name>
+    <Language>Java</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>PERSON</Name>
+        <Access>Public</Access>
+        <Location left="388" top="10" />
+        <Size width="162" height="281" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private string name</Member>
+        <Member type="Field">private int id</Member>
+        <Member type="Field">private string password</Member>
+        <Member type="Field">private int age</Member>
+        <Member type="Field">private String email</Member>
+        <Member type="Field">private string gender</Member>
+        <Member type="Method">public void getall()</Member>
+        <Member type="Method">public void setall()</Member>
+        <Member type="Method">public void login()</Member>
+        <Member type="Method">public void logout()</Member>
+        <Member type="Method">public void editprofile()</Member>
+        <Member type="Method">public void viewprofile()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>passenger</Name>
+        <Access>Public</Access>
+        <Location left="599" top="520" />
+        <Size width="162" height="332" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private string work</Member>
+        <Member type="Field">private string home</Member>
+        <Member type="Field">private string arrayofRout</Member>
+        <Member type="Field">private int rateguiwlala</Member>
+        <Member type="Field">private int telephone_num</Member>
+        <Member type="Field">private GPS my_gps</Member>
+        <Member type="Method">public void register()</Member>
+        <Member type="Method">public void activate()</Member>
+        <Member type="Method">public void deactivate()</Member>
+        <Member type="Method">public void searchforrote()</Member>
+        <Member type="Method">public void forgetpassword()</Member>
+        <Member type="Method">public void getall()</Member>
+        <Member type="Method">public void setall()</Member>
+        <Member type="Method">public void suggestroute()</Member>
+        <Member type="Method">public void join_travel()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>admin</Name>
+        <Access>Public</Access>
+        <Location left="98" top="250" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void deletepassenger(passenger a)</Member>
+        <Member type="Method">public void viewrequest()</Member>
+        <Member type="Method">public void deleterout(route a)</Member>
+        <Member type="Method">public void acceptrout(route a)</Member>
+        <Member type="Method">public void refuserout(route r)</Member>
+        <Member type="Method">public void add_route()</Member>
+        <Member type="Method">public void add_station()</Member>
+        <Member type="Method">public void delete_statio()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>vichles</Name>
+        <Access>Public</Access>
+        <Location left="10" top="697" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">public string startpoint</Member>
+        <Member type="Field">public dtring endpoint</Member>
+        <Member type="Field">private array shwar3</Member>
+        <Member type="Field">private int cost</Member>
+        <Member type="Method">public void calculatecost()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>manager</Name>
+        <Access>Public</Access>
+        <Location left="322" top="553" />
+        <Size width="162" height="165" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void addamin()</Member>
+        <Member type="Method">public void deleteadmin()</Member>
+        <Member type="Method">public void viewadminprofile()</Member>
+        <Member type="Method">public void get_report()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>station</Name>
+        <Access>Public</Access>
+        <Location left="400" top="1026" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String name</Member>
+        <Member type="Field">private string type</Member>
+        <Member type="Field">private int x</Member>
+        <Member type="Field">private int y</Member>
+        <Member type="Field">private array vichles</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Car_owner</Name>
+        <Access>Public</Access>
+        <Location left="876" top="250" />
+        <Size width="162" height="165" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private car his_car</Member>
+        <Member type="Field">private int phone_number</Member>
+        <Member type="Method">public void add_tripl()</Member>
+        <Member type="Method">public void delete_trip()</Member>
+        <Member type="Method">public void edit_trip()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>car</Name>
+        <Access>Public</Access>
+        <Location left="1050" top="671" />
+        <Size width="162" height="225" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private string company_of_car</Member>
+        <Member type="Field">private string car_iD</Member>
+        <Member type="Field">private int N_sets</Member>
+        <Member type="Field">private int model</Member>
+        <Member type="Field">private string type_Of_car</Member>
+        <Member type="Method">public void setALL()</Member>
+        <Member type="Method">public void getALL()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Trip</Name>
+        <Access>Public</Access>
+        <Location left="1350" top="385" />
+        <Size width="162" height="162" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private int time</Member>
+        <Member type="Field">private int date</Member>
+        <Member type="Field">private string start</Member>
+        <Member type="Field">private string end</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>m4war_DB</Name>
+        <Access>Public</Access>
+        <Location left="1272" top="29" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void add()</Member>
+        <Member type="Method">public void delete()</Member>
+        <Member type="Method">public void find()</Member>
+        <Member type="Method">public void edit()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>GPS</Name>
+        <Access>Public</Access>
+        <Location left="1350" top="697" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void get_my_loction()</Member>
+        <Member type="Method">public void get_distance()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Generalization" first="2" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="1" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="4" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="6" second="1">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Association" first="1" second="3">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="2" second="3">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="0" second="9">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="3" second="5">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="8" second="6">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="7" second="6">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Composition</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="10" second="1">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>
